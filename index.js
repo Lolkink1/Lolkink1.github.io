@@ -455,7 +455,7 @@ async function conversation_flow(){
                 } else if (user_input.includes("contact")){
                     document.getElementById("bg").style.backgroundImage="url(backgroundContact.png)";
                 } else if (user_input.includes("info")){
-                    document.getElementById("bg").style.backgroundImage="url(backgroundInformation.png)";
+                    document.getElementById("bg").style.backgroundImage="url(backgroundInfomation.png)";
                 } else { 
                     addbot("I'm sorry, that isn't something I can do right now, please try again");
                     continue labelredirect;
