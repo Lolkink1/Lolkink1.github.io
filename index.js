@@ -285,7 +285,7 @@ async function conversation_flow(){
                         recognition.abort();
                         recognition.stop();
 
-                        if (user_input.includes("1") || user_input.includes("2") || user_input.includes("two") || user_input.includes("3") || user_input.includes("one") || user_input.includes("two") || user_input.includes("three")){
+                        if (user_input.includes("1") || user_input.includes("2") || user_input.includes("two") || user_input.includes("3") || user_input.includes("one") || user_input.includes("three")){
                             
                             var roomChoice = user_input;
 
@@ -296,7 +296,7 @@ async function conversation_flow(){
                                 remSuggest();
                                 addsuggest("Tomorrow");
                                 addsuggest("2 days from now");
-                                addsuggest("Custom date  //not available");
+                                addsuggest("Next Monday");
                                 setTimeout(() => recognition.start(), 1000)
                                 user_input = await userSpokenMessage();
                                 recognition.abort();
