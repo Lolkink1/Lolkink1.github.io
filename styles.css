@@ -80,7 +80,9 @@
   height: 45px;
   right: 15px;
   bottom:20px;
-  background-color: #8a57cf;
+  background-color: #d36217;
+  background-image: url("chatboticon.jpg");
+  background-size: 100% 100%;
   color: #fff;
   border-radius: 50%;
   text-align: center;

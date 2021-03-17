@@ -124,7 +124,7 @@ async function conversation_flow(){
                 recognition.abort();
                 recognition.stop();
 
-                if (user_input.includes("it")){
+                if (user_input.includes("it") || user_input.includes("IT")){
                     addbot("Do you want to rent hardware or install software?");
                     labelit: do{
                     remSuggest();
